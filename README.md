@@ -52,7 +52,7 @@ Texte bouton rouge :
 
 Une fois que le générateur fonctionne, ajoutez, dans l'ordre que vous souhaitez, les fonctionnalités suivantes :
 
-- La possibilité de faire d'autres mèmes (utilisez ceux dans `/image`). Attention à bien placer le texte !
+- La possibilité de faire d'autres mèmes (utilisez ceux dans `/meme`). Attention à bien placer le texte !
 - Ajouter une bordure noire autour du texte
 - Faire en sorte que le texte ne soit pas "trop gros", reste dans une zone déterminée (quitte à l'écrire sur plusieurs lignes ou en plus petit)
 - Faire en sorte qu'une fois généré, le mème soit ouvert dans la visionneuse de photos Windows
