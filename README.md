@@ -1,7 +1,7 @@
-# <center>Sujet Couralafac - TP Manipulations d'images en Python</center>
+<h1 align="center"> Sujet Couralafac - TP Manipulations d'images en Python </h1>
 
-<center>Durée : 1h30</center>
-<center>Ce TP n'est PAS noté</center>
+<p align="center">Durée : 1h30</p>
+<p align="center">Ce TP n'est PAS noté</p>
 
 Le sujet porte sur la manipulation d'images avec Python.
 Pour ce faire, vous allez créer un générateur de mèmes à l'aide de la bibliothèque Pillow (abrégée PIL).
@@ -31,22 +31,20 @@ Voici un exemple :
 ```
 * Meme  : Robotnik Button *
 Texte bouton rouge :
-> Passer une heure et demie à faire autre chose que le TD
-> Texte bouton bleu :
-> >>> Faire le TD proposé sur les memes parce qu'il est un peu cool
-> Texte Robotnik :
-> >>> Les lycéens
-> ==================
-> Meme généré dans /généré/meme-1.png
+>>> Passer une heure et demie à faire autre chose que le TD
+Texte bouton bleu :
+>>> Faire le TD proposé sur les memes parce qu'il est un peu cool
+Texte Robotnik :
+>>> Les lycéens
+==================
+Meme généré dans /généré/meme-1.png
 ```
 
 `/généré/meme-1.png` :
 
-<center>
-
-![img.png](https://files.voltis.cloud/TfxziP4ytzNf6brfziIOMyCFaLQGg4Zi.webp)
-
-</center>
+<p align="center">
+<img src="https://files.voltis.cloud/TfxziP4ytzNf6brfziIOMyCFaLQGg4Zi.webp" alt="img.png">
+</p>
 
 ## Partie 2)
 
@@ -74,7 +72,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 img = Image.open("meme/robotnik.jpg")        # Image à modifier
 draw = ImageDraw.Draw(img)
-font = ImageFont.truetype("impact.ttf", 50)  # Police d'écriture et taille
+font = ImageFont.truetype("impact.ttf", 50)  # Police d'écriture et taille           
 
 draw.text(xy = (10, 100),                    # Emplacement du texte
            text = "Hello, World !",          # Texte à écrire
