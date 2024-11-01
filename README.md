@@ -65,7 +65,7 @@ Toutes les fonctionnalités ne sont pas forcément compliquées. Certaines sont 
 
 Voici un code basique pour vous dépanner :
 
-```cmd
+```bash
 pip install pillow
 ```
 
