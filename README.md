@@ -39,8 +39,10 @@ Texte bouton rouge :
 > ==================
 > Meme généré dans /généré/meme-1.png
 > ```
+````
 
 `/généré/meme-1.png` :
+
 <center>
 
 ![img.png](https://files.voltis.cloud/TfxziP4ytzNf6brfziIOMyCFaLQGg4Zi.webp)
@@ -50,12 +52,13 @@ Texte bouton rouge :
 ## Partie 2)
 
 Une fois que le générateur fonctionne, ajoutez, dans l'ordre que vous souhaitez, les fonctionnalités suivantes :
-* La possibilité de faire d'autres mèmes (utilisez ceux dans `/image`). Attention à bien placer le texte !
-* Ajouter une bordure noire autour du texte
-* Faire en sorte que le texte ne soit pas "trop gros", reste dans une zone déterminée (quitte à l'écrire sur plusieurs lignes ou en plus petit)
-* Faire en sorte qu'une fois généré, le mème soit ouvert dans la visionneuse de photos Windows
-* Choisir le format de l'image générée (png, jpg, etc)
-* Créer une interface graphique
+
+- La possibilité de faire d'autres mèmes (utilisez ceux dans `/image`). Attention à bien placer le texte !
+- Ajouter une bordure noire autour du texte
+- Faire en sorte que le texte ne soit pas "trop gros", reste dans une zone déterminée (quitte à l'écrire sur plusieurs lignes ou en plus petit)
+- Faire en sorte qu'une fois généré, le mème soit ouvert dans la visionneuse de photos Windows
+- Choisir le format de l'image générée (png, jpg, etc)
+- Créer une interface graphique
 
 Toutes les fonctionnalités ne sont pas forcément compliquées. Certaines sont même faisable en une ligne.
 
@@ -63,7 +66,7 @@ Toutes les fonctionnalités ne sont pas forcément compliquées. Certaines sont 
 
 Voici un code basique pour vous dépanner :
 
-```python
+````python
 > from PIL import Image, ImageDraw, ImageFont
 >
 > img = Image.open("meme/robotnik.jpg")       # Image à modifier
