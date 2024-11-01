@@ -28,7 +28,7 @@ les consignes sont les suivantes :
 
 Voici un exemple :
 
-````
+```
 * Meme  : Robotnik Button *
 Texte bouton rouge :
 > Passer une heure et demie à faire autre chose que le TD
@@ -38,8 +38,7 @@ Texte bouton rouge :
 > >>> Les lycéens
 > ==================
 > Meme généré dans /généré/meme-1.png
-> ```
-````
+```
 
 `/généré/meme-1.png` :
 
@@ -66,7 +65,7 @@ Toutes les fonctionnalités ne sont pas forcément compliquées. Certaines sont 
 
 Voici un code basique pour vous dépanner :
 
-````python
+```python
 > from PIL import Image, ImageDraw, ImageFont
 >
 > img = Image.open("meme/robotnik.jpg")       # Image à modifier
@@ -80,6 +79,4 @@ Voici un code basique pour vous dépanner :
 >           )
 >
 > img.save("généré/meme-1.jpg")               # Sauvegarde de l'image
->
-> ```
-````
+```
